@@ -3,7 +3,7 @@ import { useState, useEffect, useRef, createContext, useContext, useCallback } f
 // ─────────────────────────────────────────────────────────────────────────────
 // API LAYER — change BASE_URL to your backend when deploying
 // ─────────────────────────────────────────────────────────────────────────────
-const BASE_URL = "http://localhost:4000";
+const BASE_URL = "https://xervlink.onrender.com"; 
 
 const api = {
   _token: () => localStorage.getItem("xervlink_token"),
